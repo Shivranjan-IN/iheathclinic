@@ -4,8 +4,8 @@
     "description": "Anti-Gravity Healthcare Management System Backend",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js",
-        "dev": "node server.js"
+        "start": "tsx server.js",
+        "dev": "tsx watch server.js"
     },
     "keywords": [
         "healthcare",
@@ -45,10 +45,10 @@
         "txt": "^1.0.0",
         "uuid": "^13.0.0",
         "wav": "^1.0.2",
+        "tsx": "^4.22.4",
         "zod": "^4.3.6"
     },
     "devDependencies": {
-        "nodemon": "^3.1.14",
-        "tsx": "^4.22.4"
+        "nodemon": "^3.1.14"
     }
 }
