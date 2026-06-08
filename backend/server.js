@@ -65,6 +65,7 @@ app.use(cors({
         'http://localhost:3001',
         'http://localhost:5173',
         'http://localhost:5174',
+        'https://iheathclinic.com',
         'https://iheathclinic-two.vercel.app',
     ],
     credentials: true,
